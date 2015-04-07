@@ -41,6 +41,7 @@ html_favicon = '_static/ablog.ico'
 
 # ABLOG
 
+github_pages = 'abakan'
 templates_path = [ablog.get_html_templates_path()]
 
 if os.environ.get('READTHEDOCS', None) == 'True':
