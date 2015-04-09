@@ -6,10 +6,6 @@ before_install:
 script:
   - ablog build
 after_success:
-  - echo $DEPLOY_KEY > deploy_key.pem
-  - chmod 600 deploy_key.pem
-  - ssh-agent
-  - ssh-add deploy_key.pem
   - git config --global user.name "Ahmet Bakan"
   - git config --global user.email "lornapi@gmail.com"
   - git config --global push.default simple
