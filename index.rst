@@ -25,8 +25,9 @@ ProDy_ website.
 Blog Posts
 ----------
 
+More often than here, I post about blogging at `ABlog <http://ablog.readthedocs.org/>`_ ;)
+
 .. postlist::
    :date: %b %d, %Y
 
 
-More often than here, I post about blogging at `ABlog <http://ablog.readthedocs.org/>` ;)
