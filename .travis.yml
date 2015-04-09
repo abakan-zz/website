@@ -7,4 +7,8 @@ script:
   - git config --global user.name "Ahmet Bakan"
   - git config --global user.email "lornapi@gmail.com"
   - ablog build
+after_success:
+  - cat $DEPLOY_KEY > .travis/deploy_key.pem
+  - chmod 600 .travis/deploy_key.pem
+  - ssh-add .travis/deploy_key.pem
   - ablog deploy
