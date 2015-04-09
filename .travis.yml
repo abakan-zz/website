@@ -3,7 +3,7 @@ python:
   - 2.7
 before_install:
   - pip list
-  - pip install IPython matplotlib napi numpy prody
+  - pip install IPython matplotlib napi prody
   - git clone https://github.com/abakan/ablog.git
   - cd ablog; pip install .
 script:
