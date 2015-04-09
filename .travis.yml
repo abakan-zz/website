@@ -2,7 +2,9 @@ language: python
 python:
   - 2.7
 before_install:
-  - pip install ablog Sphinx Werkzeug alabaster invoke IPython matplotlib napi
+  - pip install ablog Sphinx Werkzeug alabaster invoke IPython matplotlib napi numpy
 script:
+  - git config --global user.name "Ahmet Bakan"
+  - git config --global user.email "lornapi@gmail.com"
   - ablog build
   - ablog deploy
