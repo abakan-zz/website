@@ -24,7 +24,7 @@ extensions = [
 
 version = release = ablog.__version__
 project = u'AhmetBakan.com'
-copyright = u'2014, Ahmet Bakan'
+copyright = u'2013-2015, Ahmet Bakan'
 master_doc = 'index'
 source_suffix = '.rst'
 exclude_patterns = ['_build']
@@ -64,7 +64,7 @@ html_style = 'alabaster.css'
 html_theme = 'alabaster'
 html_sidebars = {
    '**': ['about.html',
-          'postcard.html', 'recentposts.html',
+          'postcard.html', #'recentposts.html',
           'tagcloud.html', 'categories.html',
           'archives.html',
           'searchbox.html']
