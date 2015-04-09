@@ -5,11 +5,11 @@ before_install:
   - pip install IPython matplotlib napi numpy prody
   - git clone https://github.com/abakan/ablog.git
   - cd ablog; pip install .
+  - pip list
 script:
   - ablog build
 after_success:
   - git config --global user.name "Ahmet Bakan"
   - git config --global user.email "lornapi@gmail.com"
   - git config --global push.default simple
-  - echo "https://$DEPLOY_KEY:@github.com" > .git/credentials
-  - ablog deploy --push-quietly
+  - ablog deploy --push-quietly --github-token=DEPLOY_KEY
