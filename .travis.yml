@@ -7,7 +7,7 @@ before_install:
   - pip list
   - pip install IPython matplotlib napi prody
   - git clone https://github.com/abakan/ablog.git
-  - cd ablog; pip install .
+  - pip install ablog/.
 script:
   - ablog build
 after_success:
