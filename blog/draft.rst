@@ -1,5 +1,4 @@
 Git Your B'Day Caps Ready!
 ==========================
 
-.. post::
-   :test:
+.. post:: 10 Mar, 2013
