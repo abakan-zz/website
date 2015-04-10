@@ -1,13 +1,7 @@
-Hi, there!
-==========
-
-Welcome to my new website, reimagined using ABlog_, a new blogging tool.
-Let's see how often I will post this time ;)
-
 About Me
---------
+========
 
-I started as a Data Scientist at `Kabbage, Inc <https://www.kabbage.com>`_ in
+I am a Data Scientist at  `Kabbage, Inc <https://www.kabbage.com>`_ since
 April 2014.
 
 Prior to joining Kabbage, I was a Fellow at the
@@ -25,7 +19,8 @@ ProDy_ website.
 Blog Posts
 ----------
 
-More often than here, I post about blogging at `ABlog <http://ablog.readthedocs.org/>`_ ;)
+More often than here, I post about blogging at
+`ABlog <http://ablog.readthedocs.org/>`_ ;)
 
 .. postlist::
    :date: %b %d, %Y
