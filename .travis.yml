@@ -8,10 +8,8 @@ virtualenv:
 
 before_install:
   - pip list
-  - pip install IPython matplotlib napi prody
-  - git clone https://github.com/abakan/ablog.git
-  - pip install ablog/.
-  - rm -rf ablog
+  - pip install IPython matplotlib napi prody ablog
+
 script:
   - ablog build
 
