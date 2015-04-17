@@ -21,7 +21,6 @@ extensions = [
 
 
 # PROJECT
-
 version = release = ablog.__version__
 project = u'AhmetBakan.com'
 copyright = u'2013-2015, Ahmet Bakan'
@@ -31,7 +30,6 @@ exclude_patterns = ['_build']
 
 
 # HTML OUTPUT
-
 html_title = "AhmetBakan.com"
 html_static_path = ['_static']
 html_use_index = False
@@ -40,7 +38,6 @@ html_show_sourcelink = True
 html_favicon = '_static/ablog.ico'
 
 # ABLOG
-
 github_pages = 'abakan'
 templates_path = [ablog.get_html_templates_path()]
 
@@ -59,7 +56,6 @@ fontawesome_css_file = 'css/font-awesome.css'
 
 
 # THEME
-
 html_style = 'alabaster.css'
 html_theme = 'alabaster'
 html_sidebars = {
