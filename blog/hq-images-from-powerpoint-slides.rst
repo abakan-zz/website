@@ -27,7 +27,7 @@ Microsoft `KB article`_. Here is a short summary:
      ====  =======
      Year  Version
      ====  =======
-     2013  15.0 :strike:`14.0`
+     2013  15.0
      2010  14.0
      2007  12.0
      2003  11.0
