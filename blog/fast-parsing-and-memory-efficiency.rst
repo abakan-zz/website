@@ -37,13 +37,17 @@ simply resizing data arrays by calling their :meth:`~numpy.ndarray.resize`
 methods after parsing is finished. With release of v1.4.8, ProDy now uses just
 enough memory to handle atomic data:
 
-.. ipython::
+.. code-block:: ipython
 
    In [1]: from prody import parsePDB
 
    In [2]: %time all_atoms = parsePDB('1JJ2')
+   CPU times: user 168 ms, sys: 4 ms, total: 172 ms
+   Wall time: 173 ms
 
    In [3]: %time ca_atoms = parsePDB('1JJ2', subset='ca')
+   CPU times: user 168 ms, sys: 4 ms, total: 172 ms
+   Wall time: 172 ms
 
    In [4]: all_atoms.numBytes() // ca_atoms.numBytes()
 
