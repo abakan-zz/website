@@ -166,12 +166,14 @@ So, how fast is the parser? I parsed 1 GB data in 1.3s. At around 700 MB/s data
 input rate, it may be as fast as it gets. Here is an example on how to use MSA
 parser and classes in ProDy_ and Evol_:
 
-.. ipython::
+.. code-block:: ipython
 
    In [1]: from prody import *
 
-   In [1]: fetchPfamMSA('7tm_1', alignment='seed')
+   In [2]: fetchPfamMSA('7tm_1', alignment='seed')
+   Out[2]: '7tm_1_seed.sth'
 
-   In [1]: msa = parseMSA('7tm_1_seed.sth')
+   In [3]: msa = parseMSA('7tm_1_seed.sth')
 
-   In [1]: msa['5HT1A_HUMAN']  # sequences are indexed during parsing
+   In [4]: msa['5HT1A_HUMAN']  # sequences are indexed during parsing
+   Out[4]: <Sequence: 5HT1A_HUMAN (7tm_1_seed[21]; length 434; 348 residues and 86 gaps)>
