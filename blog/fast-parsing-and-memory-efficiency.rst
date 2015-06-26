@@ -42,14 +42,15 @@ enough memory to handle atomic data:
    In [1]: from prody import parsePDB
 
    In [2]: %time all_atoms = parsePDB('1JJ2')
-   CPU times: user 168 ms, sys: 4 ms, total: 172 ms
-   Wall time: 173 ms
+   CPU times: user 1.27 s, sys: 13 ms, total: 1.28 s
+   Wall time: 1.29 s
 
    In [3]: %time ca_atoms = parsePDB('1JJ2', subset='ca')
-   CPU times: user 168 ms, sys: 4 ms, total: 172 ms
-   Wall time: 172 ms
+   CPU times: user 529 ms, sys: 2 ms, total: 531 ms
+   Wall time: 530 ms
 
    In [4]: all_atoms.numBytes() // ca_atoms.numBytes()
+   Out[4]: 26
 
 
 Pointer Classes and Serialization
