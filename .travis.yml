@@ -8,7 +8,7 @@ virtualenv:
 
 before_install:
   - pip list
-  - pip install IPython matplotlib napi ablog
+  - pip install IPython napi ablog
 
 script:
   - ablog build
