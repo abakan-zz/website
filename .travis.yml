@@ -15,6 +15,6 @@ script:
 
 after_success:
   - git config --global user.name "Ahmet Bakan"
-  - git config --global user.email "lornapi@gmail.com"
+  - git config --global user.email "lordnapi@gmail.com"
   - git config --global push.default simple
   - ablog deploy --push-quietly --github-token=DEPLOY_KEY -m="`git log -1 --pretty=%B`"
