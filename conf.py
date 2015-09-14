@@ -69,8 +69,8 @@ html_theme_path = [alabaster.get_path()]
 html_theme_options = {
     'travis_button': False,
     'github_button': False,
-    'description': False,#'Ahmet Bakan\'s Homepage',
-    'logo': 'ahmet.jpg',
+    'description': "Ahmet's Homepage",
+    # 'logo': 'ahmet.jpg',
 }
 
 # SPHINX
